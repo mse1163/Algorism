@@ -54,6 +54,8 @@ public class Solution7208 {
 	static int[] arr;
 	static boolean[] sel;
 	static int N, cnt;
+
+	// 정점, 간선 문제에서 자신을 제외한 3가지색으로 바꿔서 비교하는 조건만 추가함
 	static void dfs(int v) {
 		
 		sel[v] = true;
